@@ -1,0 +1,162 @@
+
+.App{
+  background-color:hsl(217deg 86.35% 9.8%);
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.inside-container{
+  width: 30%;
+  height: 35%;
+  background-color:hsl(217deg 56.23% 20.76%);
+  border-radius:10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.adviceNo{
+  font-size: 13px;
+  color: rgb(47 237 123);
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+}
+.adviceText-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45%;
+  width: 80%;
+}
+.adviceText{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif; 
+  color:rgba(255, 255, 255, 0.883);
+  margin:0 15px;
+  text-align: center;
+}
+.circle{
+  position: absolute;
+  width: 4%;
+  height: 8%;
+  border-radius: 50%;
+  background-color: rgb(64, 238, 133);
+  bottom: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1{
+  width: 85%;   
+ margin-top: 6%;
+}
+
+@media screen and (max-width:430px){
+  .inside-container{
+    width: 70%;
+    height: 35%;
+    background-color:hsl(217deg 56.23% 20.76%);
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .circle{
+    width: 8%;
+    height: 6%;
+  }
+  .adviceText-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    width: 80%;
+  }
+  .adviceText{
+    font-size: 13px;
+  }
+  .img1{
+    width: 85%; 
+    margin-top: 0;  
+  }
+  .img2{
+    width: 30%;
+  }
+}
+
+@media screen and (max-width:1075px ){
+  .App{
+    background-color:hsl(217deg 86.35% 9.8%);
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .inside-container{
+    width: 30%;
+    height: 35%;
+    background-color:hsl(217deg 56.23% 20.76%);
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .adviceNo{
+    font-size: 13px;
+    color: rgb(47 237 123);
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+  }
+  .adviceText-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    width: 80%;
+  }
+  .adviceText{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif; 
+    color:rgba(255, 255, 255, 0.883);
+    margin:0 15px;
+    text-align: center;
+  }
+  .circle{
+    position: absolute;
+    width: 4%;
+    height: 8%;
+    border-radius: 50%;
+    background-color: rgb(64, 238, 133);
+    bottom: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img1{
+    width: 85%;   
+   margin-top: 6%;
+  
+  }
+}
+@media screen and (max-width:860px ){
+  .inside-container{
+    width: 45%;
+  }
+  .adviceText{
+    font-size: 14px;
+  }
+  .circle{
+    height: 5%;
+  }
+  .img2{
+    width: 50%;
+  }
+}
